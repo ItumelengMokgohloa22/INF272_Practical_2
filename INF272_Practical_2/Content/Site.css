@@ -1,0 +1,135 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+body {
+    background-color: #063970;
+}
+
+.mainbody {
+    background-color: #ffd3b6;
+    padding: 30px 20px 30px 20px;
+    margin-top: 20px;
+}
+
+.menu-link {
+    display: flex;
+    color: white;
+    background-color: black;
+    
+}
+
+.menu-link div {
+    border-right: solid white 1px;
+    padding: 18px;
+    font-size: larger;
+
+}
+.menu-link div::after last-child {
+    flex: 1;
+}
+
+body>div {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.menu-link a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.active {
+    background-color: green;
+}
+
+.mainbody .row {
+    border: solid green 1px;
+    background-color:white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.row1 img {
+    float: left;
+}
+
+.row img, .row p {
+    height: 200px;
+
+}
+
+.row img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.side-by-side {
+    display:flex;
+}
+
+h2, h3 {
+    font-family: Arial;
+
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    font-family: Arial;
+    color: white;
+    
+}
+
+img {
+    padding: 10px;
+}
+
+.row  {
+    border: 2px solid white;
+}
+
+.mainbody {
+    border: 2px solid white;
+}
+
+table {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+td, th {
+    font-family: Arial;
+    color:  white;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
